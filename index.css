@@ -98,4 +98,11 @@ textarea.contact-form-text{
     float:right;
     padding-right:200px ;
 }
-
+#contact{
+    background-color: #34495e;
+}
+li{
+    list-style: none;
+    font-size: 25px;
+    color: #ddd;
+}

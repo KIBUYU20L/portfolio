@@ -12,16 +12,16 @@
     <div class="nav">
     <nav>
         <ul>
-            <li><a class="active" href="#project.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a class="active" href="#profile">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
            
         </ul>
      </nav>
     </div>
 
      <div class="container">
-        <!-- <img src= "https://scontent.fnbo2-1.fna.fbcdn.net/v/t1.15752-9/107660485_3009294469147867_6616864753618188018_n.jpg?_nc_cat=109&_nc_sid=b96e70&_nc_eui2=AeEDLx_McI2KgzfP7AK5gguSBXPhLdKS0lMFc-Et0pLSU2VkTKdp94f4oEF_i7O-lee29baF_mi65SQGb7uArMfM&_nc_ohc=7yzg23QLbpcAX8PPd12&_nc_ht=scontent.fnbo2-1.fna&oh=004e405ac964a3881c4af305ede2e282&oe=5F2F2CBF" height="300px" width="300px" alt=""> -->
+       <div id="profile">
         <div class="row">
             <div class="col-md-4">
               <div class="thumbnail">
@@ -33,7 +33,7 @@
               </div>
             </div>
             <!-- <div class="card"> -->
-           <div class="col-md-6">
+           <div class="col-md-8">
              <div class="container">
               <div class="header">
                 <h1>OLIVER OTIATO</h1>
@@ -43,21 +43,38 @@
               </div>
              </div>
             </div>
-          <!-- </div> -->
-            <!-- <div class="col-md-4">
-              <div class="thumbnail">
-                <a href="/w3images/fjords.jpg">
-                    <img src= "https://scontent.fnbo2-1.fna.fbcdn.net/v/t1.15752-9/107660485_3009294469147867_6616864753618188018_n.jpg?_nc_cat=109&_nc_sid=b96e70&_nc_eui2=AeEDLx_McI2KgzfP7AK5gguSBXPhLdKS0lMFc-Et0pLSU2VkTKdp94f4oEF_i7O-lee29baF_mi65SQGb7uArMfM&_nc_ohc=7yzg23QLbpcAX8PPd12&_nc_ht=scontent.fnbo2-1.fna&oh=004e405ac964a3881c4af305ede2e282&oe=5F2F2CBF" height="300px" width="300px" alt="">
-                  <div class="caption">
-                    <p>Lorem ipsum...</p>
-                  </div>
-                </a>
-              </div>
-            </div> -->
           </div>
-        
-
-     </div>
+        </div>
+      </div>
+      <div id="about" class="container">
+        <h1>About Me</h1>
+        <p>I am a water engineer by proffession</p>
+        <p>I have had interest in programing since i was in high school but i did not get a chance</p>
+        <p>I give much attention to rugby </p>
+      </div>
+      <div id="contact" class="container">
+        <h1>Contact information</h1>
+        <div class="row">
+        <div class="column-md-4" id="information">
+            <!-- <h1>Contact</h1> -->
+            <ul>
+                <li>oliverotiato283@gmail.com <img src="https://cdn2.iconfinder.com/data/icons/social-media-2259/512/gmail-512.png" height="30px" width="30px"></li>
+                <li> 0735666777 <img src="https://www.kindpng.com/picc/m/207-2074315_call-png-call-icon-phone-call-png-logo.png" height="30px" width="30px"></li>
+                <li>Facebook <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/1024px-Facebook_icon.svg.png" height="25px" width="25px"></li>
+            </ul>
+        </div>
+        <div class="column-md-8" id="form">  
+        <!-- <h1>Contact Us</h1> -->
+       <form class="contact-form" action="index.html" method="post">
+           <input type="text" class="contact-form-text" placeholder="Your name">
+           <input type="email" class="contact-form-text" placeholder="Your email">
+           <input type="text" class="contact-form-text" placeholder="Your phone no.">
+           <textarea name="" id="" cols="30" rows="10" placeholder="your message" class="contact-form-text"></textarea>
+           <input type="submit" class="contact-form-btn" value="send">
+       </form>
+        </div>
+    </div>
+  </div>
     
 </body>
 </html>    
