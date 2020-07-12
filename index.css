@@ -1,24 +1,38 @@
-h1{
-    text-align: center;
-    float: center;
-    padding-bottom: 15px;
-}
+
 img{
     float:center;
    
 }
 body{
     /* background-color: antiquewhite; */
-    /* background-image: url('https://images.unsplash.com/photo-1561047029-3000c68339ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'); */
+    background-image: url('https://331mrnu3ylm2k3db3s1xd1hg-wpengine.netdna-ssl.com/wp-content/uploads/2015/11/Sprudge-Kaffeeform-MelanieB%C3%B6hme-8er-740x438.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     font-family:sans-serif;
 }
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #969c9b;
+    color: white;
+    font-size: 30px;
+    font-style: 'Merriweather', serif; 
+    opacity: 0.7;
+  }
+  
 /* nav{ */
     /* background: rgb(195, 216, 223); */
     /* height:80px; */
     /* width:100%; */
 /* } */
+
+h1{
+    font-size: 40%;
+    color: #2980b9;
+    text-align: center;
+    float: center;
+    padding-bottom: 15px;
+}
 nav ul{
     float: right;
     /* margin-right: 20px; */
@@ -84,3 +98,4 @@ textarea.contact-form-text{
     float:right;
     padding-right:200px ;
 }
+
