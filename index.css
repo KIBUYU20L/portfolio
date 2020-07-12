@@ -1,6 +1,7 @@
 h1{
     text-align: center;
     float: center;
+    padding-bottom: 15px;
 }
 img{
     float:center;
@@ -8,7 +9,7 @@ img{
 }
 body{
     /* background-color: antiquewhite; */
-    background-image: url('https://images.unsplash.com/photo-1561047029-3000c68339ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    /* background-image: url('https://images.unsplash.com/photo-1561047029-3000c68339ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'); */
     background-repeat: no-repeat;
     background-size: cover;
     font-family:sans-serif;
