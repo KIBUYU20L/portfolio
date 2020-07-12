@@ -100,9 +100,13 @@ textarea.contact-form-text{
 }
 #contact{
     background-color: #34495e;
+    opacity: 0.8;
 }
 li{
     list-style: none;
     font-size: 25px;
     color: #ddd;
+}
+#about{
+    background-color: #fff;
 }
