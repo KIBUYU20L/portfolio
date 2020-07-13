@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="nav">
-    <nav>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <ul>
             <li><a class="active" href="#profile">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -48,44 +48,45 @@
       </div>
       <div id="about" class="container">
         <h1>About Me</h1>
-        <p>I am a water engineer by proffession</p>
+        <!-- <p>I am a water engineer by proffession</p> -->
         <p>I have had interest in programing since i was in high school but i did not get a chance</p>
         <p>I give much attention to rugby </p>
-        <p>EDUCATION BACKGROUND
-          PROFESSIONAL                         							           2015-2017; KENYA WATER INSTITUTE,    Diploma Water Engineering
-          SECONDARY EDUCATION
-          2009-2013; BUDALANGI SECONDARY SCHOOL {Kenya certificate of secondary education
+        <p>EDUCATION BACKGROUND<br>PROFESSIONAL <br>2015-2017; KENYA WATER INSTITUTE,    Diploma Water Engineering<br>
+          <br>SECONDARY EDUCATION<br>
+          2009-2013; BUDALANGI SECONDARY SCHOOL {Kenya certificate of secondary education<br>
           
-          PRIMARY EDUCATION
+          PRIMARY EDUCATION<br>
           2001-2008; SIRIMBA PRIMARY SCHOOL (Kenya certificate of primary education)
           </p>
       </div>
 
       <div id="projects" class="container">
-        <h1>Great Family Childrens Home</h1>
-        <P>My first project entailing HTML CSS Js</P>
-        <p>Here is the link to my project <a href="kibuyu20l.github.io/ip/">G</a></p>
-
-        <h1>Moringa-qa</h1>
-        <p>Group project</p>
-        <p>Here is the link to my group project <a href="https://github.com/lenomosh/moringa-qa">click here</a></p>
-
+        <h1>My Projects</h1>
+        <div class="row">
+            <div class="col-md-6">
+              <h2>Independent Project</h2>
+              <P>My first project entailing HTML CSS JS</P>
+              <p>Here is the link to my github projects <a href="https://github.com/KIBUYU20L/IP">G.F.C.H</a></p>
+            </div>
+        <div class="col-md-6">
+          <h2>Moringa-qa</h2>
+          <p>Group project</p>
+          <p>Here is the link to my group project <a href="https://github.com/lenomosh/moringa-qa">click here</a></p>
+        </div>
       </div>
-      <div id="contact" class="container">
+    </div>
+    <div id="contact" class="container">
         <h1>Contact information</h1>
         <div class="row">
-          <div class="container">
-            <div class="column-md-4" id="information">
+          <div class="col-md-6" id="information">
             <!-- <h1>Contact</h1> -->
             <ul>
                 <li>oliverotiato283@gmail.com <img src="https://cdn2.iconfinder.com/data/icons/social-media-2259/512/gmail-512.png" height="30px" width="30px"></li>
                 <li> 0735666777 <img src="https://www.kindpng.com/picc/m/207-2074315_call-png-call-icon-phone-call-png-logo.png" height="30px" width="30px"></li>
                 <li>Facebook <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/1024px-Facebook_icon.svg.png" height="25px" width="25px"></li>
             </ul>
-        </div>
       </div>
-        <div class="container">
-        <div class="column-md-8" id="form">  
+        <div class="col-md-6" id="form">  
         <!-- <h1>Contact Us</h1> -->
        <form class="contact-form" action="index.html" method="post">
            <input type="text" class="contact-form-text" placeholder="Your name">
@@ -95,7 +96,6 @@
            <input type="submit" class="contact-form-btn" value="send">
        </form>
       </div>
-    </div>
     </div>
   </div>
     

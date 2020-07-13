@@ -1,6 +1,8 @@
 
 img{
     float:center;
+    border: 2px solid grey;
+    border-radius: 10%;
    
 }
 body{
@@ -26,7 +28,7 @@ body{
     /* width:100%; */
 /* } */
 
-h1{
+#profile h1{
     font-size: 100%;
     color: #2980b9;
     text-align: center;
@@ -35,6 +37,7 @@ h1{
 }
 nav ul{
     float: right;
+    /* position: fixed; */
     /* margin-right: 20px; */
 }
 nav ul li{
@@ -92,15 +95,19 @@ textarea.contact-form-text{
 }
 #information{
     float:left;
-    padding-left:200px ;
 }
 #form{
     float:right;
-    padding-right:200px ;
 }
-#contact{
+#contact {
     background-color: #34495e;
     opacity: 0.8;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+#contact h1{
+    color: aliceblue;
 }
 li{
     list-style: none;
@@ -111,11 +118,15 @@ li{
     background-color: #34495e;
     opacity: 0.8;
     color: aliceblue;
+    text-align: center;
+    padding-top: 5%;
 }
 #projects{
     background-color: #34495e;
     opacity: 0.8;
     color: aliceblue;
+    text-align: center;
+    padding-top:5% ;
 }
 .container{
     border-radius: 15px;
